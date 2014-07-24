@@ -2,9 +2,11 @@
     "Framework": "qunit",
     "TestHarnessReferenceMode": "AMD",
     "TestHarnessLocationMode": "SettingsFileAdjacent",
-    "References" : [
-        {"Path" : "Scripts/require.js" },
-        {"Path" : "Scripts/jquery-2.1.1.js" },
-        {"Path" : "Scripts/sinon-1.9.1.js" }
+    "References": [
+        { "Path": "Scripts/require.js" },
+        { "Path": "Scripts/jquery-2.1.1.js" }
+    ],
+    "Tests": [
+        { "Path": "tests" }
     ]
 }

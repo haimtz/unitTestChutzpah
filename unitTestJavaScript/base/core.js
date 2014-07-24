@@ -1,4 +1,4 @@
-﻿define(['myService'], function (myService) {
+﻿define('core', ['myService'], function (myService) {
     return {
         version: 8,
         returnMessage: function () {
