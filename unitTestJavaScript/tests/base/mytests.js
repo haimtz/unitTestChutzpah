@@ -24,5 +24,5 @@ require(['core', 'myService'], function (core, myService) {
         var expected = 'fake';
 
         equal(actual, expected, 'this is fake');
-    });
+    })
 });
